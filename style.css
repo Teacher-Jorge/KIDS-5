@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-family: 'bangers', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 102, 0);
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 10px;
+}
+
+.video-container {
+    position: absolute;
+    left: 1300px;
+    top: 300px;
+   
+}
+
+.videos {
+    width: 400px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 15px;
+}
+
+.video-caption {
+    position: relative;
+    font-family: 'bangers';
+    font-size: 40px;
+    color: rgb(225, 0, 255);
+    text-shadow: 1px 1px 2px black;
+    visibility: hidden;
+}
+
+.videos:active {
+    box-shadow: none;
+}
+
+.pics {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.pics:active {
+    box-shadow: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letters {
+    font-family: 'bangers', sans-serif;
+    font-size: 60px;
+    color: rgb(234, 0, 255);
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.letters:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.words {
+    font-family: 'bangers', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.words:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.spelling {
+    font-family: 'bangers', sans-serif;
+    font-size: 60px;
+    color: rgb(0, 140, 255);
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.spelling:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.alphabet-input {
+    width: 70px;
+    height: 70px;
+    font-size:70px;
+    font-family: 'bangers', sans-serif;
+    color:fuchsia;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 2px black;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+span {
+    color: fuchsia;
+    letter-spacing: -2px;
+}
+
+.misslet-input {
+    width: 40px;
+    height: 55px;
+    font-size:70px;
+    font-family: 'bangers', sans-serif;
+    color:fuchsia;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
+    border-bottom: 1px solid fuchsia;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: -5px;
+    margin-left: -10px;
+}
+
+.sentences-container {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+.sentence {
+    font-family: 'bangers', sans-serif;
+    font-size: 70px;
+    color: rgb(0, 140, 255);
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 0px;
+    width: 1000px;
+    letter-spacing: 5px;
+    margin-right: 15px;
+}
+
+.checks {
+    width: 70px;
+    margin-bottom: 20px;
+    margin-left: -5PX;
+    visibility: hidden;
+}
+

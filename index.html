@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="confetti.css">
+    <title>kids - Class 5</title>
+</head>
+
+<audio id="right" src="assets/right.mp3"></audio>
+<audio id="right2" src="assets/right2.wav"></audio>
+<audio id="wrong" src="assets/wrong.mp3"></audio>
+<audio id="pic-sound" src="assets/empanada.mp3"></audio>
+
+<div class="video-container">
+<div id="caption" class="video-caption">DELICIOUS EMPANADAS!</div>
+
+<video id="dessert-video" class="videos" src="assets/empanadas.mp4"></video>
+</div>
+
+
+
+<body>
+    <div class="heading">Kids - Class 5</div>
+
+    <img id="dessert-img" class="pics" src="assets/empanada.jpg">
+
+    <div class="container">
+        <div class="letters">E</div>
+    <div class="words">EMPANADA</div>
+    <div class="spelling">E-M-P-A-N-A-D-A</div>
+    </div>
+
+    
+
+    <input id="letter1" type="text" class="alphabet-input">
+    <input id="letter2" type="text" class="alphabet-input">
+    <input id="letter3" type="text" class="alphabet-input">
+    <input id="letter4" type="text" class="alphabet-input">
+    <input id="letter5" type="text" class="alphabet-input">
+    <input id="letter6" type="text" class="alphabet-input">
+    <input id="letter7" type="text" class="alphabet-input">
+    <input id="letter8" type="text" class="alphabet-input">
+
+    <div class="sentences-container">
+     <div class="sentence">
+        MY DAD LOVES
+        <input id="misslet1" type="text" class="misslet-input">
+        <span>M</span>
+        <span>P</span>
+        <span>A</span>
+        <span>N</span>
+        <span>A</span>
+        <span>D</span>
+        <span>A</span>
+        <span>S</span> .<img id="check1" class="checks" src="assets/check.png" alt="">
+     </div>
+    </div>
+
+      <div class="sentences-container">
+     <div class="sentence">
+        <span>M</span> <input id="misslet2" type="text" class="misslet-input"> 
+        TOO!
+        
+        <img id="check2" class="checks" src="assets/check.png" alt="">
+     </div>
+    </div>
+
+    <button onclick="createConfetti()">🎉 CONFETTI!✨</button>
+ 
+    <script src="script.js"></script>
+    <script src="confetti.js"></script>
+</body>
+</html>
