@@ -18,7 +18,7 @@
 .video-container {
     position: absolute;
     left: 1300px;
-    top: 300px;
+    top: 315px;
    
 }
 
@@ -87,17 +87,23 @@
     cursor: pointer;
 }
 
+.spelling-container {
+    display: flex;
+    width: 600px;
+}
+
 .spelling {
     font-family: 'bangers', sans-serif;
     font-size: 60px;
-    color: rgb(0, 140, 255);
+    color: rgb(135, 0, 139);
     text-shadow: 1px 1px 2px black;
     margin-bottom: 10px;
     width: 400px;
 }
 
 .spelling:hover {
-    background-color: chartreuse;
+    background-color: rgb(255, 0, 255);
+    color: rgb(179, 255, 0);
     cursor: pointer;
 }
 

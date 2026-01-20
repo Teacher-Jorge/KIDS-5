@@ -176,5 +176,6 @@ misslet2.addEventListener('keyup', (e) => {
         check2.style.visibility = 'visible'
         const audio = document.getElementById('right2')
         audio.play()
+        misslet2.disabled = true
     }
 })
